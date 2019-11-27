@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XYYDataBase_Example' do
+  pod 'XYYDataBase', :path => '../'
+
+  target 'XYYDataBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
