@@ -1,0 +1,18 @@
+PODS:
+  - XYYDataBase (0.1.0):
+    - XYYDataBase/XYYDataBase (= 0.1.0)
+  - XYYDataBase/XYYDataBase (0.1.0)
+
+DEPENDENCIES:
+  - XYYDataBase (from `../`)
+
+EXTERNAL SOURCES:
+  XYYDataBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYYDataBase: 5d6be6cf2dcf544d9d0ccf6424a73b9e9e82be56
+
+PODFILE CHECKSUM: 12f61f92b83325c364d1d46d7dcb393b81269c1b
+
+COCOAPODS: 1.8.4

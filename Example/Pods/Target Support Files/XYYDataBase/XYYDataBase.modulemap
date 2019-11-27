@@ -1,0 +1,6 @@
+framework module XYYDataBase {
+  umbrella header "XYYDataBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

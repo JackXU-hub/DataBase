@@ -30,7 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XYYDataBase/Classes/**/*'
+ s.subspec 'XYYDataBase' do |c|
+  c.source_files = 'XYYDataBase/Classes/XYYDataBaseKit/**/*'
+ end
+
+  #s.source_files = 'XYYDataBase/Classes/XYYDataBase/**/*'
   
   # s.resource_bundles = {
   #   'XYYDataBase' => ['XYYDataBase/Assets/*.png']
